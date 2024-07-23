@@ -13,8 +13,16 @@ void Pattern6(int n) {
 
 
 int main() {
-  int n = 5;
+  int n;
+  cout <<"Enter num : ";
+  cin >> n;
   Pattern6(n);
 
   return 0;
 }
+// N = 4;
+
+// 1 2 3 4
+// 1 2 3
+// 1 2
+// 1
