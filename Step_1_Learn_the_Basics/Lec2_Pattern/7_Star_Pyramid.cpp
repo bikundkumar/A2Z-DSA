@@ -18,8 +18,8 @@ void Print7(int n) {
   }
 
   cout << endl;
-}  }
-
+}  
+}
 
 int main() {
 
@@ -32,7 +32,6 @@ int main() {
 
   return 0;
 }
-
 // N = 3 
 
 //  *  
