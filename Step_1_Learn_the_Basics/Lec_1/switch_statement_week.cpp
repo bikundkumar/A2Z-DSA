@@ -7,28 +7,28 @@ int main() {
   cin >>day;
 
   switch(day) {
-    case 1 : cout <<"Monday";
+    case 1 : cout <<"Monday\n";
     break;
 
-    case 2: cout <<"Tuesday";
+    case 2: cout <<"Tuesday\n";
     break;
 
-    case 3: cout <<"Wednesday";
+    case 3: cout <<"Wednesday\n";
     break;
 
-    case 4: cout <<"Thuresday";
+    case 4: cout <<"Thuresday\n";
     break;
 
-    case 5: cout <<"Friday";
+    case 5: cout <<"Friday\n";
     break;
 
-    case 6: cout <<"Saturday";
+    case 6: cout <<"Saturday\n";
     break;
 
-    case 7: cout <<"Sunday";
+    case 7: cout <<"Sunday\n";
     break;
 
-    default : cout <<"invalid day enter " << endl;
+    default : cout <<"invalid day enter\n";
 
   }
 
