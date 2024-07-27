@@ -3,7 +3,9 @@ using namespace std;
 int main() {
 
 /*
-  int age = 17;
+  int age;
+  cout <<"enter age : ";
+  cin >> age;
 
   if(age >= 18) {
     cout <<"You are adult \n";
@@ -12,7 +14,9 @@ int main() {
   }
  */
   
-  int marks = 54;
+  int marks;
+  cout <<"enter marks : ";
+  cin >> marks;
 
   if(marks < 25) {
     cout << "Grade : F\n";
