@@ -2,6 +2,7 @@
 using namespace std;
 int main() {
 
+// Data Type //
   /*
   int x = 10;
   cout <<"int : "<< x << "\n";

@@ -8,6 +8,8 @@ int main() {
   /*cout <<"Hello, Coders!"<<endl;
   cout <<"Hello, Coders!"<<endl; */ 
   
+  // input / Output //
+  
   int x;
   int y;
   cin >>x;

@@ -2,6 +2,7 @@
 using namespace std;
 int main() {
 
+// Age //
 /*
   int age;
   cout <<"enter age : ";
@@ -13,6 +14,8 @@ int main() {
     cout <<"You are Not adult\n";
   }
  */
+
+// Marks //
   
   int marks;
   cout <<"enter marks : ";
