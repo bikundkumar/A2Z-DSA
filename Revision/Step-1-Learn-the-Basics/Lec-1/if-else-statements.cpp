@@ -2,20 +2,20 @@
 using namespace std;
 int main() {
 
-// Age //
-/*
-  int age;
-  cout <<"enter age : ";
-  cin >> age;
+// Age 
 
-  if(age >= 18) {
-    cout <<"You are adult \n";
-  } else {
-    cout <<"You are Not adult\n";
-  }
- */
+  // int age;
+  // cout <<"enter age : ";
+  // cin >> age;
 
-// Marks //
+  // if(age >= 18) {
+  //   cout <<"You are adult \n";
+  // } else {
+  //   cout <<"You are Not adult\n";
+  // }
+ 
+
+// Marks 
   
   int marks;
   cout <<"enter marks : ";

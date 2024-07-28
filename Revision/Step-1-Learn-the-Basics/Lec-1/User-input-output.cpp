@@ -2,13 +2,13 @@
 using namespace std;
 int main() {
 
-  /* cout <<"Hello, Coders!\n";
-  cout <<"Hello, Coders!\n"; */
+  // cout <<"Hello, Coders!\n";
+  // cout <<"Hello, Coders!\n";
 
-  /*cout <<"Hello, Coders!"<<endl;
-  cout <<"Hello, Coders!"<<endl; */ 
+  // cout <<"Hello, Coders!"<<endl;
+  // cout <<"Hello, Coders!"<<endl; 
   
-  // input / Output //
+  // input and Output 
   
   int x;
   int y;

@@ -11,8 +11,8 @@ int main() {
 
     int x, y;
     cin >> x >> y;
-    int sum = x + y;
-    cout << sum << endl;
+    int result = sum(x , y);
+    cout << result<< endl;
 
 
   return 0;

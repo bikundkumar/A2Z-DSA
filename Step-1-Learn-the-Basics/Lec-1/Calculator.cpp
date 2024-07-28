@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 void Calculator(float a) {
@@ -16,22 +16,30 @@ void Calculator(float a) {
         cout << "Enter second number: ";
         cin >> b;
 
-        if (ch == '+') {
+        switch(ch) {
+            case '+' : 
             cout << a << " + " << b << " = " << a + b << endl;
-        } else if (ch == '-') {
+            break;
+
+            case '-' : 
             cout << a << " - " << b << " = " << a - b << endl;
-        } else if (ch == '*') {
+            break;
+
+            case '*' :
             cout << a << " * " << b << " = " << a * b << endl;
-        } else if (ch == '/') {
-            if (b != 0) {
-                cout << a << " / " << b << " = " << a / b << endl;
+            break;
+
+            case '/' :
+            if(b != 0) {
+            cout << a << " / " << b << " = " << a / b << endl;
             } else {
-                cout << "Error: Division by zero is not allowed." << endl;
+                cout <<"Error: Division by zero is not allowed.\n"; 
             }
-        } else {
-            cout << "Invalid operator. Please try again." << endl;
-        }
-    }
+            break;
+            default: 
+            cout <<"Invalid operator. Please try again .\n"; 
+               }
+         }
 }
 
 int main() {
