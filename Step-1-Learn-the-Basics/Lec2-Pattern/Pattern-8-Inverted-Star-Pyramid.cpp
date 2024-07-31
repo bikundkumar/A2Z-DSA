@@ -16,7 +16,7 @@ void Pattern8(int n) {
 
 int main() {
 
-  int n = 3;
+  int n = 3 ;
   Pattern8(n);
 
 
