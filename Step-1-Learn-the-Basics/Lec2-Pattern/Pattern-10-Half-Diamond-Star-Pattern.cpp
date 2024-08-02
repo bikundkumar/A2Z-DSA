@@ -8,8 +8,7 @@ void HalfDiamondPattern(int N) {
             cout << "* ";
         }
         cout << endl;
-    }
-        
+    }   
     // Lower half excluding middle line
     for (int i = N - 1; i >= 1; i--) {
         for (int j = 1; j <= i; j++) {
